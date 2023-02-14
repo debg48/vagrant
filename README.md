@@ -36,3 +36,9 @@ Create a directory and open a text editor (I used VSCode)
 ``` code . ```
 
 This is where our vagrant file and our project files will go
+
+The vagrant file is the core of vagrant it is where all the setting goes 
+
+It has 5 main parts : 
+
+* config.vm.box - OS
