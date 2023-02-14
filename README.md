@@ -22,3 +22,8 @@ I have a Linux System (Arch Based) so all I needed to do was
 Also I downloaded and installed the vb extension pack
 
 Now we are good to go to get our hands dirty.
+
+We start by checking out if vagrant installation was successsful
+
+``` vagrant -v```
+
