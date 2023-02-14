@@ -9,4 +9,16 @@ I knocked against this thing called Vagrant in Janurary 2023 and started a bit o
 
 Do download the extension pack for VB as well
 
-Now if you do not know what Vagrant is , it is nothing but portable virtual development environments , if you are familiar with docker this is something very similar 
+Now if you do not know what Vagrant is , it is nothing but portable virtual development environments , if you are familiar with docker this is something very similar , except we use vms instead of containers.
+
+I have a Linux System (Arch Based) so all I needed to do was 
+
+``` sudo pacman -Syu```
+
+```sudo pacman -S virtualbox```
+
+```sudo pacman -S vagrant```
+
+Also I downloaded and installed the vb extension pack
+
+Now we are good to go to get our hands dirty.
