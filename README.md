@@ -31,6 +31,6 @@ Create a directory and open a text editor (I used VSCode)
 
 ```mkdir vagrant-test```
 
-``` cd vagrant-test````
+``` cd vagrant-test```
 
 ``` code . ```
