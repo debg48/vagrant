@@ -42,3 +42,7 @@ The vagrant file is the core of vagrant it is where all the setting goes
 It has 5 main parts : 
 
 * config.vm.box - OS
+* config.vm.provider - VM provider (VB in our case)
+* config.vm.network - Network Configuration for the box 
+* config.vm.shared_folder - how we can access files from our system
+* config.vm.provision - what we want to setup in the box 
