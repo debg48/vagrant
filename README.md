@@ -27,3 +27,10 @@ We start by checking out if vagrant installation was successsful
 
 ``` vagrant -v```
 
+Create a directory and open a text editor (I used VSCode)
+
+```mkdir vagrant-test```
+
+``` cd vagrant-test````
+
+``` code . ```
