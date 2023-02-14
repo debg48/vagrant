@@ -1,5 +1,5 @@
 # Vagrant
-Tutorial and Notes for Vagrant
+### Tutorial and Notes for Vagrant
 
 
 I knocked against this thing called Vagrant in Janurary 2023 and started a bit of research ever since. Firstly I would advice you to download and install Vagrant and Virtual Box on your system 
@@ -34,3 +34,5 @@ Create a directory and open a text editor (I used VSCode)
 ``` cd vagrant-test```
 
 ``` code . ```
+
+This is where our vagrant file and our project files will go
