@@ -56,4 +56,4 @@ In your terminal run vagrant init <box name>
 
 ```vagrant init centos/7 ```
 
-
+You can check my vagrant file 
