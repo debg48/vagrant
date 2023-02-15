@@ -60,3 +60,8 @@ You can check my vagrant file
 
   
 ``` vagrant up ```
+  
+  
+  Now if you really don't like what we did so far and you are having second thoughts....
+  
+  ```vagrant destroy```
