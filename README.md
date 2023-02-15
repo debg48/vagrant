@@ -70,4 +70,6 @@ You can check my vagrant file
   
   ``` vagrant suspend ```
   
+  and to resume 
   
+  ``` vagrant resume ```
