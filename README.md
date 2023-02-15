@@ -73,3 +73,16 @@ You can check my vagrant file
   and to resume 
   
   ``` vagrant resume ```
+
+  There are few changes that I want to do on the base Centos file before I get started
+  
+  First I want to change amount of memory and cores allocated to the box 
+  
+ In config.vm.box we make the following changes
+  
+  ```
+  config.vm.provider "virtualbox" do |vb|
+    vb.gui = true
+    vb.memory = "1024"
+  end
+  ```
