@@ -46,3 +46,8 @@ It has 5 main parts :
 * config.vm.network - Network Configuration for the box 
 * config.vm.shared_folder - how we can access files from our system
 * config.vm.provision - what we want to setup in the box 
+
+
+We can head over to Vagrant Boxes to see what boxes we can start with here I am goinig with CentOS
+
+
