@@ -50,4 +50,4 @@ It has 5 main parts :
 
 We can head over to Vagrant Boxes to see what boxes we can start with here I am goinig with CentOS
 
-
+All kinds of Varant Boxes are available [here](https://app.vagrantup.com/boxes/search)
