@@ -65,3 +65,9 @@ You can check my vagrant file
   Now if you really don't like what we did so far and you are having second thoughts....
   
   ```vagrant destroy```
+
+  If you want to suspend the vm 
+  
+  ``` vagrant suspend ```
+  
+  
