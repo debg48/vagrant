@@ -91,3 +91,7 @@ You can check my vagrant file
 Keep your vb up so you can check wheather the specs have changed or not and reload the box once to make the changes
 
 ``` vagrant reload ```
+  
+Now we ssh into our box 
+  
+``` vagrant ssh ```
