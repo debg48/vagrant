@@ -106,7 +106,7 @@ For shared folder I used the folder in which my vagrant file was located so I un
 ```
   config.vm.synced_folder ".", "/vagrant_data"
   ```
-TO add some security what we can do is 
+To add some security what we can do is 
   
 ```
   :mount_options => ["dmode=777","fmode=666"]
