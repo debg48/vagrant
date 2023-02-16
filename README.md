@@ -95,3 +95,9 @@ Keep your vb up so you can check wheather the specs have changed or not and relo
 Now we ssh into our box 
   
 ``` vagrant ssh ```
+  
+Now to able to access our box using the IP via a local nework we will uncomment the following line in the vagrant file :
+  
+```
+config.vm.network "private_network", ip: "192.168.33.10"  
+```
