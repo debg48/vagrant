@@ -99,5 +99,9 @@ Now we ssh into our box
 Now to able to access our box using the IP via a local nework we will uncomment the following line in the vagrant file :
   
 ```
-config.vm.network "private_network", ip: "192.168.33.10"  
+config.vm.network "private_network", ip: "<ip from local ip range>"  
 ```
+For shared folder I used the folder in which my vagrant file was located so I uncommented and edited the following line 
+  
+  
+  
