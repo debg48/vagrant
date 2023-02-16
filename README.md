@@ -116,9 +116,9 @@ We move ahead and uncomment the following lines for provision
 
 ```
   config.vm.provision "shell", inline: <<-SHELL
-    apt-get update
-    apt-get install -y apache2
+    yum update
+    yum install apache2
   SHELL
 ```
 
-  
+ A vagrant reload and we are good to go
