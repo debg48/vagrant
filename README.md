@@ -81,11 +81,11 @@ You can check my vagrant file
  In config.vm.box we make the following changes
   
   ```
-  config.vm.provider "virtualbox" do |vb|
-    vb.gui = true
-    vb.memory = "2048"
-    vb.cpus = 2
-  end
+    config.vm.provider "virtualbox" do |vb|
+      vb.gui = true
+      vb.memory = "2048"
+      vb.cpus = 2
+    end
   ```
   
 Keep your vb up so you can check wheather the specs have changed or not and reload the box once to make the changes
@@ -99,7 +99,7 @@ Now we ssh into our box
 Now to able to access our box using the IP via a local nework we will uncomment the following line in the vagrant file :
   
 ```
-config.vm.network "private_network", ip: "<ip from local ip range>"  
+  config.vm.network "private_network", ip: "<ip from local ip range>"  
 ```
 For shared folder I used the folder in which my vagrant file was located so I uncommented and edited the following line 
   
