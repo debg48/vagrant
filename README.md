@@ -103,5 +103,6 @@ config.vm.network "private_network", ip: "<ip from local ip range>"
 ```
 For shared folder I used the folder in which my vagrant file was located so I uncommented and edited the following line 
   
-  
-  
+```
+  config.vm.synced_folder ".", "/vagrant_data"
+  ```
