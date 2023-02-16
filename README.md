@@ -86,7 +86,6 @@ You can check my vagrant file
       vb.memory = "2048"
       vb.cpus = 2
     end
-  
   ```
   
 Keep your vb up so you can check wheather the specs have changed or not and reload the box once to make the changes
@@ -105,14 +104,12 @@ Now to able to access our box using the IP via a local nework we will uncomment 
 For shared folder I used the folder in which my vagrant file was located so I uncommented and edited the following line 
   
 ```
-  config.vm.synced_folder ".", "/vagrant_data"
-  
+  config.vm.synced_folder ".", "/vagrant_data"  
   ```
 To add some security what we can do is 
   
 ```
   :mount_options => ["dmode=777","fmode=666"]
-
   ```
   
 We move ahead and uncomment the following lines for provision 
@@ -122,7 +119,6 @@ We move ahead and uncomment the following lines for provision
     apt-get update
     apt-get install -y apache2
   SHELL
-  
 ```
 
   
