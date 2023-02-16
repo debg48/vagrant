@@ -87,3 +87,7 @@ You can check my vagrant file
     vb.cpus = 2
   end
   ```
+  
+Keep your vb up so you can check wheather the specs have changed or not and reload the box once to make the changes
+
+``` vagrant reload ```
