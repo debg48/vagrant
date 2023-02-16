@@ -112,4 +112,14 @@ To add some security what we can do is
   :mount_options => ["dmode=777","fmode=666"]
   ```
   
+We move ahead and uncomment the following lines for provision 
+
+```
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y apache2
+  SHELL
+  
+```
+
   
