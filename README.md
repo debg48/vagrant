@@ -86,6 +86,7 @@ You can check my vagrant file
       vb.memory = "2048"
       vb.cpus = 2
     end
+  
   ```
   
 Keep your vb up so you can check wheather the specs have changed or not and reload the box once to make the changes
@@ -105,11 +106,13 @@ For shared folder I used the folder in which my vagrant file was located so I un
   
 ```
   config.vm.synced_folder ".", "/vagrant_data"
+  
   ```
 To add some security what we can do is 
   
 ```
   :mount_options => ["dmode=777","fmode=666"]
+
   ```
   
 We move ahead and uncomment the following lines for provision 
